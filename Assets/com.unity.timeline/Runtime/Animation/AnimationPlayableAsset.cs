@@ -10,6 +10,8 @@ namespace UnityEngine.Timeline
     [System.Serializable, NotKeyable]
     public partial class AnimationPlayableAsset : PlayableAsset, ITimelineClipAsset, IPropertyPreview
     {
+        public string aiTeacherTest;
+
         /// <summary>
         /// Whether the source AnimationClip loops during playback.
         /// </summary>
